@@ -1,0 +1,67 @@
+[Version]
+Class=IEXPRESS
+SEDVersion=3
+[Options]
+PackagePurpose=InstallApp
+ShowInstallProgramWindow=0
+HideExtractAnimation=0
+UseLongFileName=1
+InsideCompressed=0
+CAB_FixedSize=0
+CAB_ResvCodeSigning=0
+RebootMode=I
+InstallPrompt=%InstallPrompt%
+DisplayLicense=%DisplayLicense%
+FinishMessage=%FinishMessage%
+TargetName=%TargetName%
+FriendlyName=%FriendlyName%
+AppLaunched=%AppLaunched%
+PostInstallCmd=%PostInstallCmd%
+AdminQuietInstCmd=%AdminQuietInstCmd%
+UserQuietInstCmd=%UserQuietInstCmd%
+SourceFiles=SourceFiles
+[Strings]
+InstallPrompt=¿Esta seguro de que desea instalar Tiendecita?
+DisplayLicense=C:\Users\Alvca\Desktop\Creacion del paquete de instalacion\Licencia.txt
+FinishMessage=Tiendecita se ha instalado correctamente
+TargetName=C:\Users\Alvca\Desktop\TiendecitaInstall.EXE
+FriendlyName=Instalador Tiendecita
+AppLaunched=cmd.exe /c Install1.bat
+PostInstallCmd=cmd.exe /c Instalador.bat
+AdminQuietInstCmd=
+UserQuietInstCmd=
+FILE0="ArticulosTiendecita.jasper"
+FILE1="ArticulosTiendecita.jrxml"
+FILE2="fichero.sql"
+FILE3="Instalador DB.bat"
+FILE4="Instalador.bat"
+FILE5="Install1.bat"
+FILE6="Licencia.txt"
+FILE7="ListadoTicketsTiendecita.jasper"
+FILE8="ListadoTicketsTiendecita.jrxml"
+FILE9="ListadoTicketsTiendecita2.jasper"
+FILE10="ListadoTicketsTiendecita2.jrxml"
+FILE11="ListaTicketsTiendecita.jasper"
+FILE12="shop_icon-icons.com_51010.ico"
+FILE13="Ticket.jasper"
+FILE14="Ticket.jrxml"
+FILE15="Tiendecita.exe"
+[SourceFiles]
+SourceFiles0=C:\Users\Alvca\Desktop\Creacion del paquete de instalacion\
+[SourceFiles0]
+%FILE0%=
+%FILE1%=
+%FILE2%=
+%FILE3%=
+%FILE4%=
+%FILE5%=
+%FILE6%=
+%FILE7%=
+%FILE8%=
+%FILE9%=
+%FILE10%=
+%FILE11%=
+%FILE12%=
+%FILE13%=
+%FILE14%=
+%FILE15%=
